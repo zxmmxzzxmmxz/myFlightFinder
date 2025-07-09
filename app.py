@@ -8,9 +8,9 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
-GMAIL_USER = "zxmmxzzxmmxz@gmail.com"
-GMAIL_PASS = "poae tdup dxje cnnp"
-TO_EMAIL = "zxmmxzzxmmxz@gmail.com"
+GMAIL_USER = "GMAIL EMAIL Address"
+GMAIL_PASS = "YOUR GMAIL CODE"
+TO_EMAIL = "Email"
 
 CHECK_DATES = ["20250601", "20250602", "20250603"]  # Hardcoded target dates for alert
 LAST_ALERTED = set()
